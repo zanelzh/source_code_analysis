@@ -246,7 +246,7 @@ poll_table
 			__timeout = schedule_timeout(__timeout);
 		}
 		__set_current_state(TASK_RUNNING);
-		/* ??? */
+		
 		poll_freewait(&table);
 	
 		/*
