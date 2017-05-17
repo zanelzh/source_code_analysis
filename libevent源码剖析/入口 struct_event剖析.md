@@ -27,7 +27,7 @@ evcb_active_next 活动事件队列
 evcb_flags 事件标志，判断事件处理器从属于通用定时器队列或时间堆、注册事件队列、没有使用、活动事件队列  
 ![](ev_flag.png)  
 evcb_pri 指定事件处理器优先级，值越小则优先级越高  
-evcb_closure 执行回调函数时的行为，默认行为、调用ev_ncalls次回调函数、执行完回调函数，再次将事件处理器加入注册事件队列中
+evcb_closure 执行回调函数时的行为，默认行为、调用ev_ncalls次回调函数、执行完回调函数，再次将事件处理器加入注册事件队列中    
 ![](ev_closure.png)  
 evcb_callback 回调函数  
 evcb_arg 回调函数的参数  
