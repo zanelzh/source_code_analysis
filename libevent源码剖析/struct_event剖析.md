@@ -1,4 +1,4 @@
-# 1.struct event
+# struct event
 
 先来见识一下结构体的内容  
 ![](struct_event.png)  
