@@ -1,6 +1,6 @@
 # JVM分析
 
-- [内存布局](Run-Time Data Areas.md)
+- [内存布局](Run-TimeDataAreas.md)
 
 
 - [垃圾回收](gc.md)
